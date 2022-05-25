@@ -1,5 +1,5 @@
 import './Footer.css'
-import Boton from '/Proyectos/RareWeb/RareWeb-Front/src/Components/Boton/Boton'
+import Boton from '../Boton/Boton'
 
 const Footer = () => {
     return(

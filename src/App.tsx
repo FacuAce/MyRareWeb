@@ -1,7 +1,7 @@
 import './App.css'
 import Home from './Rutas/Home/Home'
-import Header from '/Proyectos/RareWeb/RareWeb-Front/src/Components/Header/Header'
-import Footer from '/Proyectos/RareWeb/RareWeb-Front/src/Components/Footer/Footer'
+import Header from './Components/Header/Header'
+import Footer from './Components/Footer/Footer'
 
 import {Route,Routes} from 'react-router-dom'
 

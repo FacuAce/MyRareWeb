@@ -1,6 +1,6 @@
 import './Header.css'
 import logo from './Logo.png'
-import Boton from '/Proyectos/RareWeb/RareWeb-Front/src/Components/Boton/BotonHeader'
+import Boton from '../Boton/BotonHeader'
 
 const Header = ()=> { 
     return (<header>
