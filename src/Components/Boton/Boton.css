@@ -1,0 +1,14 @@
+.select{
+    color: #373737;
+    font-size: 16px;
+    transition: all 0.5s;
+    margin: 0 8px;
+}
+
+.select:hover{
+    background: #359ef9;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: #efefef;
+    text-shadow: 1px 1px 1px #000;
+}

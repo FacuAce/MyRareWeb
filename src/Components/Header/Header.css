@@ -1,0 +1,58 @@
+.container__header{
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.container__logo{
+    height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    animation-name: movimientoLogo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.container__logo img{
+    width: 200px;
+}
+
+@keyframes movimientoLogo {
+    from{
+        position: relative;
+        left: 0;
+    }
+
+    to{
+        left: 150px
+    }
+    
+}
+
+.container__nav{
+    position: relative;
+    height: 100%;
+}
+
+nav{
+    height: 100%;
+}
+
+nav ul{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    margin: 0px 12px;
+    list-style: none;
+}
+
